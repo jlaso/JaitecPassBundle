@@ -1,0 +1,5 @@
+
+services:
+    jaitec_pass.main:
+        class:        Jaitec\PassBundle\Generator\MainGenerator
+        arguments:    [@kernel]   
