@@ -3,3 +3,6 @@ services:
     jaitec_pass.main:
         class:        Jaitec\PassBundle\Generator\MainGenerator
         arguments:    [@kernel]   
+    jaitec_pass.secret:
+        class:        Jaitec\PassBundle\Generator\SecretGenerator
+        arguments:    [@kernel]  

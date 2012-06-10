@@ -1,3 +1,10 @@
 parameters:
     jaitec_pass: VaRCScev0fNjk9HDGlmTobPq7rIsYtux5yzAgBE4pFihUJnK3LMd&O1Q6XZ
+    jaitec_pass_secret:
+        0: '01234567890123456789012345'
+        1: 'abcdefghijklmnOPQRSTUVWXYZ'
+        2: '01234567890123456789098765'
+        3: '01234567890123456789012345'
+        4: 'ABCDEFGHIJKLMNopqrstuvwxyz'
+        5: '01234567890123456789987654'
         
