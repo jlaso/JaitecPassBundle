@@ -7,7 +7,9 @@
  * with this source code in the file LICENSE.
  * 
  * The functionallity of this class is to have a method that obtain 
- * a random password
+ * a random secret id, like a password but with more length, in
+ * this base array sample the secret is alternatively digit,letter,etc..
+ * but you can configure freely, another sample is in config.yml 
  * 
  */
 

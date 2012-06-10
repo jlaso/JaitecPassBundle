@@ -1,7 +1,12 @@
 JaitecPassBundle
 =================
 
-This bundle provides helpers to generate and check passwords.
+-This bundle provides helpers to generate passwords.
+
+-Now you can generate long secret id with a pattern, this can help you to implement web services
+
+-Soon I want to implement a method to check the complexity
+of a password
 
 
 Installation
@@ -56,14 +61,15 @@ Add AliasBundle to your application kernel
 Usage
 =====
 
-PassBundle provides this service to generate and check passwords :
+PassBundle provides these services to generate passwords and secrets :
 
 - ``jaitec_pass.main`` implements ``PassGeneratorInterface``
+- ``jaitec_pass.secret`` implements ``PassGeneratorInterface``
 
 
-Instead of those specialized services, you can also inject ``jaitec_pass.main``,
-which provides shortcuts to all of the other services and allow you to only
-inject a single dependency.
+Instead of those specialized services, you can also inject ``jaitec_pass.main`` or
+``jaitec_pass.secret``, which provides shortcuts to all of the other services and 
+allow you to only inject a single dependency.
 
 Sample
 ======
@@ -78,7 +84,12 @@ Now generate the password
 
     $alias = $passgen->generate(7);
 
-
+Now for generate a secret id
         
+    $secretgen = $this->container->get('jaitec_pass.secret');
+
+Now generate the secret
+
+    $secret = $secretgen->generate(20);
 
         
