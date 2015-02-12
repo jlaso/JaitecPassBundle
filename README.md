@@ -92,4 +92,3 @@ Now generate the secret
 
     $secret = $secretgen->generate(20);
 
-        
