@@ -1,6 +1,8 @@
 JaitecPassBundle
 =================
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/5a921732-9918-4fda-932c-c755a6e968c1/big.png)](https://insight.sensiolabs.com/projects/5a921732-9918-4fda-932c-c755a6e968c1)
+
 -This bundle provides helpers to generate passwords.
 
 -Now you can generate long secret id with a pattern, this can help you to implement web services
