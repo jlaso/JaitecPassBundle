@@ -6,3 +6,4 @@ services:
     jaitec_pass.secret:
         class:        Jaitec\PassBundle\Generator\SecretGenerator
         arguments:    [@kernel]
+
