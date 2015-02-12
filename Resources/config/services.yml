@@ -5,4 +5,4 @@ services:
         arguments:    [@kernel]   
     jaitec_pass.secret:
         class:        Jaitec\PassBundle\Generator\SecretGenerator
-        arguments:    [@kernel]  
+        arguments:    [@kernel]
