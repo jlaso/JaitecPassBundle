@@ -25,7 +25,6 @@ class JaitecPassExtension extends Extension
         }
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
-        //print "<pre>".print_r($config,true)."</pre>"; die();
         if (!count($config)) {
              $loader->load('config.yml');
         }else{
@@ -33,3 +32,5 @@ class JaitecPassExtension extends Extension
         }
     }
 }
+
+
